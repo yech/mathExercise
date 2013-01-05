@@ -1,0 +1,6 @@
+var config = {
+    TOTAL_TEST_COUNT:20,
+    TEST_NUMBER_LOW:1,
+    TEST_NUMBER_HIGH:19,
+    EXERCISE_TYPE:0 //0加法，1减法
+};

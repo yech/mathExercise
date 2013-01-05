@@ -1,0 +1,226 @@
+body, div, p, h1, h2, h3, h4, ul, li, table, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-size: 18px;
+    font-family: SimSun, serif;
+    /* font-size:10.5pt; */
+    /* text-align:center; */
+    background-color: white;
+    line-height: normal;
+    margin: 0 21px 0 21px;
+    /* background: #ffffff url("../../App_Images/body_background.gif") left top repeat; */
+}
+
+tbody {
+    border-color: inherit;
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+a {
+    color: #4170a6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.title {
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+div.q {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+input.answer {
+    font-size: 80px;
+    border: 0px none;
+    border-bottom: 2px solid #a61d8f;
+    height: 75px;
+    width: 130px;
+}
+
+#questionNumber {
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+div.test {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 80px;
+    width: 700px;
+}
+
+#prevQuestion {
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+    height: 200px;
+    width: 64px;
+    background: url(../images/previous.png) no-repeat left center;
+}
+
+#nextQuestion {
+    cursor: pointer;
+    vertical-align: middle;
+    height: 200px;
+    width: 64px;
+    display: inline-block;
+    background: url(../images/next.png) no-repeat left center;
+}
+
+input.qb {
+    width: 70px;
+    height: 46px;
+    margin: 3px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #1821a6;
+    cursor: pointer;
+}
+
+span.smile {
+    font-size: 50px;
+    width: 48px;
+    height: 200px;
+    background: url(../images/smile.png) no-repeat left center;
+}
+
+span.cry {
+    font-size: 50px;
+    width: 48px;
+    height: 200px;
+    background: url(../images/cry.png) no-repeat left center;
+}
+
+#score {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#score div {
+    display: inline-block;
+}
+
+#specNum {
+    font-size: 20px;
+}
+
+#start {
+    font-size: 24px;
+}
+#scorePic{
+    width:48px;
+    height:48px;
+}
+div.score_100 {
+    background: url(../images/score_100.png) no-repeat left center;
+}
+
+div.score_90 {
+    background: url(../images/score_90.png) no-repeat left center;
+}
+
+div.score_80 {
+    background: url(../images/score_80.png) no-repeat left center;
+}
+
+div.score_70 {
+    background: url(../images/score_70.png) no-repeat left center;
+}
+
+div.score_60 {
+    background: url(../images/score_60.png) no-repeat left center;
+}
+
+div.score_l60 {
+    background: url(../images/score_l60.png) no-repeat left center;
+}
+#timePic{
+    height:48px;
+}
+div.time_3s{
+    background: url(../images/score_100.png) repeat-x left center;
+    width:144px;
+}
+div.time_2s{
+    background: url(../images/score_100.png) repeat-x left center;
+    width:96px;
+}
+div.time_1s{
+    background: url(../images/score_100.png) repeat-x left center;
+    width:48px;
+}
+div.time_3l{
+    background: url(../images/score_90.png) repeat-x left center;
+    width:144px;
+}
+div.time_2l{
+    background: url(../images/score_90.png) repeat-x left center;
+    width:96px;
+}
+div.time_1l{
+    background: url(../images/score_90.png) repeat-x left center;
+    width:48px;
+}
+div.time_3sm{
+    background: url(../images/score_80.png) repeat-x left center;
+    width:144px;
+}
+div.time_2sm{
+    background: url(../images/score_80.png) repeat-x left center;
+    width:96px;
+}
+div.time_1sm{
+    background: url(../images/score_80.png) repeat-x left center;
+    width:48px;
+}
+div.time_3c{
+    background: url(../images/score_70.png) repeat-x left center;
+    width:144px;
+}
+div.time_2c{
+    background: url(../images/score_70.png) repeat-x left center;
+    width:96px;
+}
+div.time_1c{
+    background: url(../images/score_70.png) repeat-x left center;
+    width:48px;
+}
+div.time_3cc{
+    background: url(../images/score_60.png) repeat-x left center;
+    width:144px;
+}
+div.time_2cc{
+    background: url(../images/score_60.png) repeat-x left center;
+    width:96px;
+}
+div.time_1cc{
+    background: url(../images/score_60.png) repeat-x left center;
+    width:48px;
+}
+div.time_3a{
+    background: url(../images/score_l60.png) repeat-x left center;
+    width:144px;
+}
+div.time_2a{
+    background: url(../images/score_l60.png) repeat-x left center;
+    width:96px;
+}
+div.time_1a{
+    background: url(../images/score_l60.png) repeat-x left center;
+    width:48px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>清清的数学练习</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/default.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="script/jquery/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="script/jquery/jquery-ui-1.9.2.custom.js"></script>
+    <script type="text/javascript" src="script/utils.js"></script>
+    <script type="text/javascript" src="script/config.js"></script>
+    <script type="text/javascript" src="script/math.js"></script>
+</head>
+<body style="padding-top:50px;">
+<div class="title" id="choose">
+    选择练习种类:
+    <label>
+        <input type="radio" name="tt" id="testTypeRandom" checked/>随机
+    </label>
+    <label>
+        <input type="radio" name="tt" id="testTypeSpec"/>指定数
+    </label>
+    <label>
+        <select id="specNum">
+
+        </select>
+    </label>
+    <input id="start" type="button" value="开始测试"/>
+</div>
+<div style="display:none;text-align: center;" id="test">
+    <div id="questionNumber">第1题</div>
+    <div>
+        <div id="prevQuestion"></div>
+        <div class="test" id="testDiv">
+        </div>
+        <div id="nextQuestion"></div>
+    </div>
+    <div id="score">
+        <div class="score"></div>
+        <div id="scorePic"></div>
+        <div class="time"></div>
+        <div id="timePic"></div>
+    </div>
+    <div style="padding:10px">
+        <input id="submitAnswer" type="button" style="width:120px;height:50px;font-weight:bold;font-size:24px;color:#2e8b57;" value="我要交卷"/>
+        <input id="newQuestion" type="button" style="margin-left:20px;width:120px;height:50px;font-weight:bold;font-size:24px;color:#2e8b57;" value="重新选题"/>
+    </div>
+    <div id="quickAnswer">
+
+    </div>
+</div>
+
+</body>
+</html>
